@@ -87,5 +87,4 @@ For the NASA wall-mounted hump case, LES mean-field and wall-pressure informatio
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
-└── verify_manuscript_config.py
 
