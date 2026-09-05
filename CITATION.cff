@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated manuscript."
-title: "MC-Dropout Physics-Constrained Reconstruction for Separated Flows"
+
+title: "MC-Dropout PINN for Physics-Constrained Separated-Flow Reconstruction"
 type: software
 
 authors:
@@ -11,15 +12,16 @@ authors:
 
 version: "1.0.0"
 
-repository-code: "https://github.com/923041122/MC-dropout-BPINN-cylinder-wake-UQ"
+repository-code: "https://github.com/923041122/MC-dropout-PINN-separated-flow-reconstruction"
 
 license: MIT
 
 preferred-citation:
   type: article
-  title: "Uncertainty Quantification for High-Reynolds-Number Cylinder-Wake Flow Using an MC-Dropout Physics-Constrained Reconstruction Model"
+  title: "Physics-Constrained Flow Reconstruction and Uncertainty Assessment in Separated Flows Using Monte Carlo Dropout"
   authors:
     - family-names: "Zhu"
       given-names: "Linlin"
     - family-names: "Zhang"
       given-names: "Xiaobing"
+
