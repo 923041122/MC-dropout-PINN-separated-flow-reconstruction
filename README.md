@@ -54,6 +54,9 @@ For the NASA wall-mounted hump case, LES mean-field and wall-pressure informatio
 ```text
 .
 ├── cylinder_wake/
+│   ├── eval_scripts/                # Evaluation & validation scripts
+│   ├── plot_scripts/                # Figure plotting scripts for manuscript
+│   ├── data/                        # Input dataset for cylinder‑wake case
 │   ├── bayesian_uncertainty_plot.py
 │   ├── benchmark_config.py
 │   ├── benchmark_evaluate.py
@@ -61,20 +64,23 @@ For the NASA wall-mounted hump case, LES mean-field and wall-pressure informatio
 │   ├── benchmark_train.py
 │   ├── learning_schedule.py
 │   ├── pinn_model.py
+│   ├── pinn_model_dropout_ablation.py
 │   ├── plot_dimensionless.py
 │   ├── read_data.py
-│   ├── train_dropout_ablation.py
-│   ├── train_uv_modify.py
-│   ├── uncertainty_ablation.py
-│   └── wake_probe_spectrum.py
+│   └── cylinder_MC_dropout_pinn_heldout_mc50.py   # Main training script
 │
 ├── nasa_hump/
-│   ├── LES_cp_nasahump2009.dat
-│   ├── LES_meanfield_nasahump2009_*.dat
-│   ├── LES_statistics_profiles_nasahump2009_*.dat
-│   ├── benchmark_tools.py
-│   └── supporting NASA hump training, evaluation,
-│       benchmark, and audit scripts
+│   ├── eval_scripts/                # Evaluation, calibration and audit scripts
+│   ├── plot_scripts/                # Publication‑figure generation scripts
+│   ├── data/                        # LES & experimental .dat datasets
+│   │   ├── LES_cp_nasahump2009.dat
+│   │   ├── LES_meanfield_nasahump2009_tec.dat
+│   │   ├── LES_statistics_profiles_nasahump2009_profiles.dat
+│   │   ├── noflow_cf.exp.dat
+│   │   ├── noflow_cp.exp.dat
+│   │   └── noflow_vel_and_turb.exp.dat
+│   ├── hump_train.py                # Main training script for NASA‑hump case
+│   └── hump_validation.py           # Formal validation script
 │
 ├── .gitignore
 ├── CITATION.cff
@@ -82,3 +88,4 @@ For the NASA wall-mounted hump case, LES mean-field and wall-pressure informatio
 ├── README.md
 ├── requirements.txt
 └── verify_manuscript_config.py
+
