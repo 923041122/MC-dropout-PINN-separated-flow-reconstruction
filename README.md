@@ -65,7 +65,7 @@ For the NASA wall-mounted hump case, LES mean-field and wall-pressure informatio
 
 ```text
 .
-├── cylinder_wake/
+├── cylinder/
 │   ├── eval_scripts/                # Evaluation & validation scripts
 │   ├── plot_scripts/                # Figure plotting scripts for manuscript
 │   ├── data/                        # Input dataset for cylinder‑wake case
