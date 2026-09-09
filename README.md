@@ -2,7 +2,7 @@
 
 Code, supporting data, evaluation utilities, and reproducibility materials associated with the manuscript:
 
-**“Physics-Constrained Flow Reconstruction and Uncertainty Assessment in Separated Flows Using Monte Carlo Dropout”**
+**“Uncertainty Quantification for High-Reynolds-Number Cylinder-Wake Flow Using an MC-Dropout Physics-Constrained Reconstruction Model”**
 
 This repository contains the implementations and supporting materials for two separated-flow reconstruction cases:
 
@@ -17,16 +17,28 @@ The repository accompanies the revised manuscript and is intended to make the re
 
 This repository is maintained by **Linlin Zhu** (GitHub account: `923041122`) and contains code and reproducibility materials associated with the manuscript:
 
-**“Physics-Constrained Flow Reconstruction and Uncertainty Assessment in Separated Flows Using Monte Carlo Dropout.”**
+**“Uncertainty Quantification for High-Reynolds-Number Cylinder-Wake Flow Using an MC-Dropout Physics-Constrained Reconstruction Model”**
 
 Linlin Zhu is identified in the manuscript contribution statement for **Software, Validation, Data Curation, and Visualization**.
 
 For citation and authorship metadata, please see [`CITATION.cff`](CITATION.cff).
 
 The repository is distributed under the [MIT License](LICENSE).
-
 ---
 
+## Archived software release and permanent identifier
+
+The finalized reproducibility software associated with the revised manuscript is archived as the GitHub tagged release **v1.1.1** (“Revised manuscript reproducibility archive”).
+
+A version-specific archival record has been reserved on Figshare with the following DOI:
+
+**DOI:** https://doi.org/10.6084/m9.figshare.33475462
+
+The Figshare archive corresponds specifically to GitHub release **v1.1.1** and provides a persistent identifier for the software state associated with the revised manuscript.
+
+The repository is maintained by **Linlin Zhu**. Software authorship and citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+
+---
 ## Scope of the repository
 
 The framework studied in the associated manuscript is a **reference-conditioned, physics-regularized flow-reconstruction framework**.
