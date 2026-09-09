@@ -26,17 +26,18 @@ For citation and authorship metadata, please see [`CITATION.cff`](CITATION.cff).
 The repository is distributed under the [MIT License](LICENSE).
 ---
 
-## Archived software release and permanent identifier
+## Versioned software release and persistent identifier
 
-The finalized reproducibility software associated with the revised manuscript is archived as the GitHub tagged release **v1.2.0** (“Revised manuscript reproducibility archive”).
+The reproducibility software associated with the revised manuscript is archived as the GitHub tagged release **v1.2.0** (“Revised manuscript reproducibility archive”).
 
-A version-specific archival record has been reserved on Figshare with the following DOI:
+A version-specific Figshare archival record is associated with the following DOI:
 
 **DOI:** https://doi.org/10.6084/m9.figshare.33475462
 
-The Figshare archive corresponds specifically to GitHub release **v1.2.0** and provides a persistent identifier for the software state associated with the revised manuscript.
+The Figshare record corresponds specifically to GitHub release **v1.2.0** and provides a persistent identifier for the software state associated with the revised manuscript.
 
 The repository is maintained by **Linlin Zhu**. Software authorship and citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+
 
 ---
 ## Scope of the repository
